@@ -12,5 +12,5 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
-
+  title = 'Tour of Heroes'
 }
