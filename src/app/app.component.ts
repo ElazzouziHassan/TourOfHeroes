@@ -15,5 +15,5 @@ import { MenuComponent } from './component/menu/menu.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Tour Of Heroes';
+  title = 'Tour of Heroes';
 }
