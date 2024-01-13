@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { Hero } from '../../classes/hero';
 
 @Component({
   selector: 'app-heroes-list',
@@ -11,5 +12,8 @@ import { RouterLink } from '@angular/router';
   styleUrl: './heroes-list.component.scss'
 })
 export class HeroesListComponent {
-
+  hero: Hero = {
+    id: 1,
+    name: 'Windstorm'
+  }
 }
